@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header nav img {
+    width: 70px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 12px;
+    padding: 0 7px;
+}
+
+header section {
+    background-color: hsl(217, 28%, 15%);
+    position: relative;
+}
+
+header section .illustration {
+    width: 100%;
+    padding: 3rem 2rem 5rem;
+    position: relative;
+    z-index: 1;
+}
+
+header section .curvy-mobile {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    line-height: 0;
+}
+
+header section .curvy-mobile img {
+    width: 100%;
+}
+
+main {
+    background-color: hsl(218, 28%, 13%);
+}
+
+main .text-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.text-1 {
+    position: absolute;
+    top: -90px;
+}
+
+main .text-1 span {
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+main .text-1 p {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+
+main .text-1 button {
+    padding: 1rem 4rem;
+    margin-top: 1.5rem;
+    color: white;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border: none;
+    border-radius: 30px;
+    font-family: 'Raleway';
+}
