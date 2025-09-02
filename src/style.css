@@ -173,3 +173,24 @@ main .text-2 a .arrow {
     padding: 0 0 0 0.5rem;
     margin: 0;
 }
+
+main .testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.satish,
+.bruce,
+.iva {
+    background-color: hsl(219, 30%, 18%);
+    margin-bottom: 2rem;
+    box-shadow: 10px 11px 8px -2px rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+}
